@@ -16,13 +16,12 @@ sealed trait Source {
 object Source {
   implicit val ordering: Ordering[Source] = {
     val base = new Ordering[Source] {
-      def rank(source: Source): Int = source.identifier match {
+      @inline def rank(source: Source): Int = source.identifier match {
         case Canon.name  => 3
         case Fanon.name  => 2
         case Gaylor.name => 1
         case _           => 0
       }
-
       override def compare(x: Source, y: Source): Int =
         Ordering[Int].compare(rank(x), rank(y))
     }
