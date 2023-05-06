@@ -1,0 +1,21 @@
+[
+  {
+    "name": "canon",
+    "links": [
+      {"uri": "https://parahumans.wordpress.com/", "name": "site"},
+      {"uri": "https://worm.fandom.com/wiki/Worm_Wiki", "name":  "wiki"}
+    ]
+  },
+  {
+    "name": "fanon",
+    "links": []
+  },
+  {
+    "name": "Gaylor Convention Center",
+    "links": [{"uri": "https://discord.gg/gaylor", "name":  "Discord"}]
+  },
+  {
+    "name": "Inheritance",
+    "links": [{"uri":  "https://archiveofourown.org/works/36326725/chapters/90564028", "name": "AO3"}]
+  }
+]
